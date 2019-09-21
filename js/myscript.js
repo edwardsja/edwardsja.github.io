@@ -5,4 +5,4 @@ function getModifiedDate() {
     document.getElementById("lastModified").style.fontSize = ".85em";
 }
 
-//window.onload = getModifiedDate;  
+window.onload = getModifiedDate;  
