@@ -1,39 +1,44 @@
-body {
+#entirePage {
+    width: 70%;
     margin: 0 auto;
 }
 
-header {
+
+
+#header {
     text-align: center;
     color: #f3f3f3;
     background-color: #0000ff;
-}
-
-h1, h2 { 
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
 }
 
 #studentName {
     padding-top: .3em;
     padding-bottom: .3em;
+    padding-right: 20%;
+    
 }
 
-header img {
-    width: 30%;
-    height: auto;
-    margin-top: 5px;
+#familyPicture img {
+    top: -75px;
+    position: fixed;
+    margin-right: 1%;
+    margin-left: 2%;
     box-shadow:-8px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-main {
+#body {
     font-family: Arial, Helvetica, sans-serif;
 }
-main h2 {
+#body h2 {
     border-bottom-style: solid;
     border-bottom-color: #c1c1c1;
     border-bottom-width: 2px;
+    margin-right: 10%;
 }
 
-footer {
+#footer {
     color: #f3f3f3;
     background-color: #0000ff;
     padding-top: .3em;
@@ -41,20 +46,25 @@ footer {
     text-align: center;
     font-size: .75em;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
 }
 
-footer a:link {
+#footer a:link {
     color: #f3f3f3;
 }
 
-footer a:visited {
+#footer a:visited {
     color: #f3f3f3;
 }
 
-footer a:hover {
+#footer a:hover {
     color: #000000;
 }
 
 #lastModified {
     font-size: .5em;
+}
+
+#test {
+    font-size: .8em;
 }

@@ -1,0 +1,28 @@
+@media (min-width: 45em) {
+    body {
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    header, footer {
+        border-radius: 10px;
+    }
+
+    header img {
+        float: right;
+        max-width: 225px;
+        margin-right: 5px;
+        box-shadow:-8px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    main h2 {
+        margin-right: 10%;
+    }
+}
