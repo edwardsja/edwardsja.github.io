@@ -1,0 +1,74 @@
+body, header, main, footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+
+}
+
+h1, h2, div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    padding-top: 2%;
+    font-size: 1.3em;
+}
+
+h2 {
+    padding-bottom: 2%;
+    font-size: 1.3em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 99%;
+    grid-template-rows: 20% 20% 20%;
+    grid-column-gap: 1%;
+}
+
+.designPrinciplesBox_title {
+    background-color: black;
+    color: white;
+    max-width: 110%;
+    max-height: 98%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1%;
+    justify-self: center;
+}
+
+#websitePhoto {
+    background-color: gray;
+    text-align: left;
+    align-self: stretch;
+} 
+
+p {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+#summary {
+    padding-top: 0%;
+    padding-bottom: 3%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: purple;
+}

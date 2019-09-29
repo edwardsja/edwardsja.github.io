@@ -1,0 +1,24 @@
+@media (min-width: 500px) {
+    body, header, main, footer {
+        width: 90%;
+    }
+    
+    .designPrinciplesBox_title div {
+        font-size: .9em;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+
+    main {
+        grid-template-columns: 49% 49%;
+        grid-template-rows: 20% 20%;
+        grid-column-gap: 1%;
+    }
+    
+}
