@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1050px) {
+    body,
+    header,
+    main,
+    footer {
+        width: 80%;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+    
+    nav {
+        width: 70%;
+    }
+
+    td, th {
+        font-size: 1em;
+    }
+
+    td h1 {
+        font-size: 30px;
+    }
+
+    table img {
+        max-width: 321px;
+    }
+
+}
