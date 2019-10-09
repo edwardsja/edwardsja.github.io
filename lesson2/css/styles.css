@@ -3,10 +3,24 @@ body, header, main, footer {
     text-align: center;
 }
 
+main div {
+    position: relative;
+    left: 2px;
+}
+
+main div div {
+    position: relative;
+    left: -0.1px;
+}
+
 header, footer {
     background-color: black;
     color: white;
+}
 
+footer {
+    padding: .5em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, div {
