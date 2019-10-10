@@ -5,8 +5,11 @@ body {
 
 header {
     text-align: center;
-    color: #f3f3f3;
-    background-color: #0000ff;
+}
+
+header, footer {
+    background-color: #51315b;
+    color: #ffffff;
 }
 
 h1, h2 { 
@@ -36,11 +39,10 @@ main h2 {
     border-bottom-width: 2px;
     text-align: center;
     font-size: 20px;
+    color: #0c1821;
 }
 
 footer {
-    color: #f3f3f3;
-    background-color: #0000ff;
     padding-top: .3em;
     padding-bottom: .3em;
     text-align: center;
@@ -68,6 +70,10 @@ ul {
 
 ul a {
     font-size: 18px;
+}
+
+ul a:hover {
+    font-size: 19px;
 }
 
 br {

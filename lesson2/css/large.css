@@ -1,4 +1,9 @@
 @media (min-width: 1050px) {
+    html {
+        position: relative;
+        top: -30px;
+    }
+
     body {
         width: 70%;
     }

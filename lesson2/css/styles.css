@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    top: -21px;
+}
+
 body, header, main, footer {
     margin: 0 auto;
     text-align: center;
@@ -28,13 +33,13 @@ h1, h2, div {
 }
 
 h1 {
-    padding-top: 2%;
+    padding-top: 3%;
     font-size: 1.3em;
 }
 
 h2 {
     padding-bottom: 2%;
-    font-size: 1.3em;
+    font-size: 18px;
 }
 
 main {
@@ -55,7 +60,7 @@ main {
     justify-self: center;
 }
 
-#websitePhoto {
+.websitePhoto {
     background-color: gray;
     text-align: left;
     align-self: stretch;

@@ -5,17 +5,21 @@ main,
 footer {
     width: 100%;
     margin: 0 auto;
-    background-color: #cfe5e6;
+    background-color: #fffbdd;
 }
-
+html, body {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-height: 100%;
+}
 main {
-    max-width: 99%;
+    max-width: 95%;
 }
 
 header, footer {
     text-align: center;
-    background-color: #068587;
-    color: #f1ffe7;
+    background-color: #1b9aaa;
+    color: #ffffff;
     font-family: 'Blinker', sans-serif;
 }
 
@@ -25,6 +29,11 @@ header {
 
 header h1 {
     font-size: 30px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: #2b4162; 
 }
 
 header h2 {
@@ -37,8 +46,8 @@ footer {
 }
 
 nav {
-    background-color: #6c464e;
-    color: #f1ffe7;
+    background-color: #f5f1e3;
+    color: #000000;
 	text-align: center;
     box-shadow: 0 2px 15px gray;
 }
@@ -55,14 +64,14 @@ nav ul {
 }
 nav li a {
 	display: block;
-	color: #fff;
+	color: #000000;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color: #bbb;
+	background-color: #dddbcb;
 	color: #36454f;
 }
 
@@ -111,5 +120,5 @@ table img {
 }
 
 footer a {
-    color: #f1ffe7;
+    color: #ffffff;
 }

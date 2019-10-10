@@ -1,9 +1,12 @@
 @media only screen and (min-width: 1050px) {
     body,
     header,
-    main,
     footer {
         width: 80%;
+    }
+
+    main {
+        max-width: 65%;
     }
 
     header h1 {
