@@ -17,16 +17,11 @@
         width: 70%;
     }
 
-    td, th {
-        font-size: 1em;
-    }
-
-    td h1 {
-        font-size: 30px;
-    }
-
     table img {
         max-width: 321px;
     }
 
+    .table_header_background {
+        font-size: 30px;
+    }
 }

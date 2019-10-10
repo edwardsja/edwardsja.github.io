@@ -32,6 +32,7 @@
     #studentName {
         padding-top: .3em;
         padding-bottom: .3em;
+        top: 0px;
     }
 
     ul {

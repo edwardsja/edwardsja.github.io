@@ -17,8 +17,8 @@ h1, h2 {
 }
 
 #studentName {
-    padding-top: -5px;
-    padding-bottom: 5px;
+    position: relative;
+    top: -10px;
 }
 
 header img {
@@ -77,5 +77,9 @@ ul a:hover {
 }
 
 br {
-    display: static;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
 }
