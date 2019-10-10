@@ -13,8 +13,18 @@
         font-size: 40px;
     }
 
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(115px, 1fr));
+    }
+
+    nav li a {
+        align-self: center;
+        font-size: 16px;
+    }
+
     nav {
-        width: 85%;
+        width: 88%;
     }
 
     table img {
