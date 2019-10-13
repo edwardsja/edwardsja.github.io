@@ -16,6 +16,10 @@ main {
     max-width: 95%;
 }
 
+.logo {
+    display: inline;
+}
+
 header, footer {
     text-align: center;
     color: #ffffff;
@@ -72,9 +76,9 @@ nav ul {
 	overflow: hidden;
 }
 nav li a {
-	display: block;
 	color: #000000;
-	text-align: center;
+    text-align: center;
+    text-justify: center;;
     padding-top: 0.75em;
     padding-bottom: 0.75em;
 	text-decoration: none;
