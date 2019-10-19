@@ -1,0 +1,150 @@
+@media only screen and (min-width: 560px) {
+    main, footer {
+        width: 85%;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    .navigation li:first-child {
+        display: none;    
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    header, nav {
+        width: 100%;
+    }
+
+    header {
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    padding-top: 0px;
+    }
+
+    header img {
+        justify-self: end;
+        padding-right: 10px;
+        width: 60%;
+        height: auto;
+        padding-top: 5px;
+        max-width: 165px;
+    }
+
+    .navigation {
+        display: grid;
+        grid-template-columns: 12% 13% 22% 20% 21% 12%;
+        grid-template-rows: 1fr;
+    }
+
+    nav ul {
+        font-size: 16px;
+    }
+
+    #city_name {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    #banner_summary {
+        max-width: 200px;
+        top: 15px;
+        left: 15px;
+    }
+    
+    #banner_image {
+        height: 275px;
+    }
+
+    #forecast {
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 120px;
+    }
+
+    #forecast h2 {
+        margin-top: 0px;
+        font-size: 21px;
+    }
+
+    table {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    th {
+        background-color: #1b9aaa;
+        color: #ffffff;
+        border: 1px solid black;
+    }
+
+    td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #article {
+        top: 150px;
+        position: relative;
+    }
+
+    #article h2 {
+        font-size: 21px;
+    }
+
+    #article h3 {
+        font-size: 17px;
+    }
+
+    #article img {
+        position: absolute;
+        float: right;
+        padding: 15px;
+        top: 0;
+        right: 0;
+    }
+
+
+    .mobile_hide {
+        display: block;
+    }
+
+    #contact_info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        position: relative;
+        top: 300px;
+        height: 500px;
+    }
+    
+    #contact_info img {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 15px;
+    }
+    
+    #contact_info p, #contact_info h4, #social_media {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    footer {
+        margin: 0 auto;
+    }
+}
