@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1080px) {
+    html {
+        height: 1000px;
+    }
     main, footer {
         width: 70%;
     }
@@ -7,130 +10,43 @@
         font-size: 40px;
     }
 
-    header {
-    grid-template-columns: 30% 40% 30%;
-    justify-content: center;
-    align-content: center;
-    padding-top: 0px;
-    padding-bottom: 15px;
-
+    header h2 {
+        font-size: 18px;
     }
 
     header h1, header h2 {
-        grid-column-start: 2;
-        grid-column-end: 3;
+        position: relative;
+        right: 10%;
     }
 
-    header img {
-        width: 70%;
-
+    nav ul {
+        font-size: 19px;
     }
 
     #city_name {
-        font-size: 38px;
+        font-size: 35px;
     }
 
     p {
-        font-size: 110%;
-    }
-
-    #summary {
-        border: 2px dotted black;
-        background-color: #1b9aaa;
-        color: #ffffff;
-        font-weight: bolder;
-        text-align: center;
-        font-size: 16px;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    
-    #top_banner_container {
-        margin: 0 auto;
-        display: grid;
-        max-width: 99.5%;
-        grid-template-columns: 4% 30% 27% 27% 12%;
-        grid-template-rows: 30px 205px 50px;
-    }
-    
-    #banner_image {
-        grid-column-start: 1;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 3;
-    } 
-
-    #forecast {
-        position: relative;
-        top: 25px;
+        font-size: 105%;
     }
 
     #article {
         height: 35%;
-    }
-    
-    #article_and_photo {
-        display:grid;
-        grid-template-rows: 40px 40px 90px 90px 30px; 
-        grid-template-columns: 2% 27.5% 27.5% 2% 35% 5%
-    }
-    
-    #article_column1 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end:5;
-        height: 80%;
-    }
-    
-    #article_column2 {
-        border-top: 2px solid black;
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 5;
-        height: 80%;
-    }
-    
-    #article_and_photo img {
-        grid-column-start: 5;
-        grid-column-end: 6;
-        grid-row-start: 2;
-        grid-row-end: 5;
+        padding-top: 0px;
+        padding-bottom: 25px;
     }
 
-    #contact_info {
-        display: grid;
-        grid-template-columns: 2% 47.5% 47.5% 2%;
-        grid-template-rows: 20px 150px 150px 20px;
+    #forecast h2 {
+        font-size: 25px;
     }
     
-    #contact_info img {
-       
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 4;
-       
-    }
-    
-    #contact_info_p1 {
-       
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 2;
-    }
-    
-    #contact_info_p2 {
-      
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 3;
+    #article img {
+        height: 300px;
+        max-width: 350px;
     }
 
-    footer {
-        margin: 0 auto;
+    #social_media img {
+        width: 55px;
     }
 }
