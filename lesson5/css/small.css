@@ -105,7 +105,6 @@ main
      padding: 0; 
      overflow: hidden;
      font-size: 18px;
-     text-emphasis: bold;
  }
 
  nav li a {
@@ -259,15 +258,6 @@ main
     margin-bottom: 0px;
     padding-top: 0px;
 }
-
-/*#contact_info img {
-    width: 95%; 
-    height: 215px;
-    border: 2px solid black;
-    background-color:  #1b9aaa;
-    color: #ffffff;
-    font-weight: bolder;
-}*/
 
 i {
     color: #1b9aaa;
