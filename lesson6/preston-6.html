@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Better Weather Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Better Weather Idaho aims to give the most accurate current weather for southern Idaho.">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link rel="stylesheet" type="text/css" href="css/googlefonts.css">
+</head>
+
+<body>
+    <div class="saturday">
+        Saturday = Preston Pancakes in the Park!
+        <br>
+        9:00 a.m. Saturday at the city park.
+        <div id="test"></div>
+    </div>
+    <header>
+        <img src="images/logo.png" alt="Better weather Idaho logo">
+        <div>
+            <h1>
+                Better Weather Idaho | Preston
+            </h1>
+            <h2>
+                "Predicting the weather today for a better tomorrow!"
+            </h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="button" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://edwardsja.github.io/lesson5/preston-6.html" class="current_page">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 id="city_name">
+            Preston, Idaho
+        </h2>
+        <div id="banner">
+            <div id="banner_summary">
+                <h2>
+                    Weather Summary
+                </h2>
+                <!-- Weather Summary box in banner picture-->
+                <p class="left_summary">
+                    Currently:
+                    <br>
+                    High:
+                    <br>
+                    Wind Chill:
+                    <br>
+                    Humidity:
+                    <br>
+                    Wind Speed:
+                    <br>
+                </p>
+                <p class="right_summary">
+                    &nbsp; Sunny
+                    <br>
+                    &nbsp; <span id="fahrenheit">76</span> &#176;F
+                    <br>
+                    &nbsp; <span id="calculatedWindChill"></span>
+                    <br>
+                    &nbsp; 69%
+                    <br>
+                    &nbsp; <span id="windSpeed">5</span>mph
+                </p>
+            </div>
+
+            <figure>   
+             <img id="banner_image" srcset="imagesbannerimage-670w.jpeg 670w
+                                           images/bannerimage-1080w.jpeg 1080w,
+                                           images/bannerimage-1300w.jpeg 1300w"
+                                    sizes="(max-width: 670px) 634px,
+                                           (max-width: 1080px) 880px,
+                                            1300px"
+                                    src="images/bannerimage-1080w.jpeg" alt="line of trees in the foreground with mountains in the background">
+                <figcaption id="small_caption">Small</figcaption>
+                <figcaption id="medium_caption">Medium</figcaption> 
+                <figcaption id="large_caption">Large</figcaption>
+            </figure>
+
+        </div>
+
+        <div id="forecast" class="mobile_hide">
+            <!-- Entire div goes away on mobile -->
+            <h2>
+                5 Day Forecast
+            </h2>
+            <table>
+                <tr>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td><img src="images/sun.jpg" alt="sunny"><br>89&#176;F</td>
+                    <td><img src="images/sun.jpg" alt="sunny"><br>87&#176;F</td>
+                    <td><img src="images/sun.jpg" alt="sunny"><br>78&#176;F</td>
+                    <td><img src="images/sun.jpg" alt="sunny"><br>75&#176;F</td>
+                    <td><img src="images/sun.jpg" alt="sunny"><br>72&#176;F</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="article">
+            <div>
+                <h2>
+                    Founders Day Fresco
+                </h2>
+                <h3>
+                    By Janica Juarez
+                </h3>
+                <p id="article_paragraph">
+                    I was recently reflecting upon the founders day event held at Foundation Park each year. I have been
+                    taking the festival for granted and have not been propery engaging in perhaps the most popular
+                    community event of the year. In response, I contacted Ms. Sharon via email and expressed my desire
+                    to serve on the event committee. Well, you guessed it, the phone rings almost immediately and she
+                    promptly asks me to be the event committee chair. Literally, good grief! My appreciation for the
+                    years of dedicated, generous service of volunteers and sponsors has escalated beyond what I thought
+                    I could feel for such a thing and ... <a href="#" onclick="article()">continue to full article</a>
+                </p>
+            </div>
+            <img class="clearfix" src="images/festival.jpg" alt="Founder's Day in Fresco">
+
+        </div>
+
+
+        <div id="contact_info">
+            <img class="mobile_hide" src="images/map.png"
+                alt="picture of a map showing coverage area with location Better Weather Idaho's office">
+            <div>
+                <h4>
+                    Better Weather Idaho
+                </h4>
+                <p>
+                    <a href="https://www.google.com/maps/place/30+N+1st+E,+Preston,+ID+83263/@42.0970234,-111.875773,17z/data=!3m1!4b1!4m5!3m4!1s0x8754f7e967e1ebc7:0x14469667cfe31546!8m2!3d42.0970234!4d-111.8735843"
+                        target="_blank"><i class="fas fa-map-marker-alt fa-xs"></i> 30 N 1st E</a>
+                    <br>
+                    Preston, ID 83263
+                    <br>
+                    <i class="fas fa-phone fa-xs fa-flip-horizontal"></i> 123-456-7890
+                    <br>
+                    <i class="far fa-envelope"></i> betterweatheridaho@bwi.com
+                </p>
+
+                <div id="social_media">
+                    <a href="https://facebook.com" target="_blank"><img src="images/facebook.png"
+                            alt="facebook icon"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="images/instagram.png"
+                            alt="instagram icon"></a>
+                    <a href="https://pinterest.com" target="_blank"><img src="images/pinterest.png"
+                            alt="pinterest icon"></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        &copy; <span id="currentYear"></span> | J. Aaron Edwards | <a href="https://edwardsja.github.io/"
+            target="_blank">Assignment Portal</a>
+        <br>
+        <span id="lastModified"></span>
+    </footer>
+    <script src="js/myscript.js"></script>
+    <script src="https://kit.fontawesome.com/045ae6be91.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
