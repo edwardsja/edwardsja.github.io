@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/small.css">
     <link rel="stylesheet" type="text/css" href="css/medium.css">
     <link rel="stylesheet" type="text/css" href="css/large.css">
-    <link rel="stylesheet" type="text/css" href="css/googlefonts.css">
 </head>
 
 <body>
@@ -37,7 +36,7 @@
         <ul class="navigation">
             <li><a href="#" id="button" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a href="https://edwardsja.github.io/lesson5/preston-6.html" class="current_page">Preston</a></li>
+            <li><a href="https://edwardsja.github.io/lesson6/preston-6.html" class="current_page">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -70,28 +69,23 @@
                 <p class="right_summary">
                     &nbsp; Sunny
                     <br>
-                    &nbsp; <span id="fahrenheit">76</span> &#176;F
+                    &nbsp; <span id="fahrenheit">34</span> &#176;F
                     <br>
                     &nbsp; <span id="calculatedWindChill"></span>
                     <br>
                     &nbsp; 69%
                     <br>
-                    &nbsp; <span id="windSpeed">5</span>mph
+                    &nbsp; <span id="windSpeed">8</span>mph
                 </p>
             </div>
 
-            <figure>   
-             <img id="banner_image" srcset="imagesbannerimage-670w.jpeg 670w
-                                           images/bannerimage-1080w.jpeg 1080w,
-                                           images/bannerimage-1300w.jpeg 1300w"
-                                    sizes="(max-width: 670px) 634px,
-                                           (max-width: 1080px) 880px,
-                                            1300px"
-                                    src="images/bannerimage-1080w.jpeg" alt="line of trees in the foreground with mountains in the background">
-                <figcaption id="small_caption">Small</figcaption>
-                <figcaption id="medium_caption">Medium</figcaption> 
-                <figcaption id="large_caption">Large</figcaption>
-            </figure>
+            <picture>
+                <source srcset="images/bannerimage-670w.jpeg" media="(min-width: 200px) and (max-width: 670px)"> 
+                    <source srcset="images/bannerimage-1080w.jpeg" media="(min-width: 671px) and (max-width: 1080px">
+                    <img src="images/bannerimage-1300w.jpeg"
+                    alt="line of trees in the foreground with mountains in the background">
+            </picture>
+
 
         </div>
 
@@ -179,7 +173,19 @@
         <span id="lastModified"></span>
     </footer>
     <script src="js/myscript.js"></script>
+    <script src="js/windchill.js"></script>
     <script src="https://kit.fontawesome.com/045ae6be91.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Montseratt"
+                    , "Open Sans"
+                ]
+            }
+        });
+    </script>
 </body>
 
 </html>

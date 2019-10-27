@@ -141,14 +141,7 @@ main
 }
 
 #banner {
-    position: relative; 
-    height: 175px;
-    margin: 0 auto;
-}
-
-#banner_image {
-    height:175px;
-    width: 99.5%;
+    position: relative;
 }
 
 #banner_summary {

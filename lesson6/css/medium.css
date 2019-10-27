@@ -59,10 +59,6 @@
         top: 15px;
         left: 15px;
     }
-    
-    #banner_image {
-        height: 275px;
-    }
 
     #small_caption, #large_caption {
         display: none;
