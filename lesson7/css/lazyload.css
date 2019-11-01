@@ -1,0 +1,23 @@
+header, main, footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30%;
+    justify-content: center;
+}
+
+img, picture {
+    padding-bottom: 5px;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

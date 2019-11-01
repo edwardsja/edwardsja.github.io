@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Aaron Edwards' LazyLoad</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Aaron Edwards' CIT 230: Web Fronted Development Progressive Loading of Times Assignment">
+    <link rel="stylesheet" href="css/lazyload.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Progressive Loading of Images
+        </h1>
+    </header>
+    <main>
+        <span>
+            <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/pup1.jpg">
+            </picture>
+
+            <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/pup2.jpg">
+            </picture>
+
+            <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/pup3.jpg">
+            </picture>
+
+            <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/pup4.jpg">
+            </picture>
+
+            <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/pup5.jpg">
+            </picture>
+
+            <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/pup6.jpg">
+            </picture>
+
+        </span>
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | J. Aaron Edwards | <a href="https://edwardsja.github.io/"
+            target="_blank">Assignment Portal</a>
+        <br>
+        <span id="lastModified"></span>
+    </footer>
+
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>
