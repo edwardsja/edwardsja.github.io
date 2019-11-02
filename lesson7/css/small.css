@@ -120,6 +120,7 @@ main h1, figcaption {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 figure {
