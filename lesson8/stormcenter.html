@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Better Weather Idaho Storm Center</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Better Weather Idaho aims to give the most accurate current weather for southern Idaho.">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link rel="stylesheet" type="text/css" href="css/lazyload.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Better weather Idaho logo">
+        <div>
+            <h1>
+                Better Weather Idaho | Storm Center
+            </h1>
+            <h2>
+                "Predicting the weather today for a better tomorrow!"
+            </h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="button" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://edwardsja.github.io/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://edwardsja.github.io/lesson/stormcenter.html" class="current_page">Storm Center</a></li>
+            <li><a href="https://edwardsja.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Storm Center Form</h1>
+        <p id="info_paragraph">Please fill out all of the required (<span class="required">*</span>) boxes.</p>
+
+        <fieldset>
+            <h2>Contact Information</h2>
+            <div>
+                <label> Full Name (First and Last)<span class="required">*</span>  <br>
+                    <input type="text" name="name" placeholder="John Smith" required>
+                </label><br>
+            </div>
+
+            <div>
+                <label> Email <br>
+                    <input type="email" name="email" placeholder="email@address.com">
+                </label><br>
+            </div>
+
+            <div>
+                <label> Phone<span class="required">*</span><br>
+                    <input type="tel" name="phone" placeholder="xxx-xxx-xxxx" required>
+                </label><br>
+            </div>
+
+            <div>
+                <label> Zipcode<span class="required">*</span><br>
+                    <input type="number" name="zipcode" placeholder="12345" required>
+                </label><br>
+            </div>
+        </fieldset>
+
+        
+        <fieldset>
+            <h2>Storm Information</h2>
+        <div
+        ><label> Date of Storm<br>
+                <input type="date" name="storm_date" placeholder="mm/dd/yyyy">
+            </label><br>
+        </div>
+
+        <div>
+            <label> Storm Type<br>
+                <input list="storm_types" name="storm_type">
+            </label><br>
+            <datalist id="storm_types">
+                <option disabled value=""></option>
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+            </datalist>
+        </div>
+
+        <div id="storm_severity">
+            <label> <span class="center_text">Storm Severity<br></span>
+                <input id="storm_severity_input" type="range" value="1" min="1" max="10" step="1" name="storm_severity"
+                    list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue" class="center_text">1</span>
+            </label><br>
+            <datalist id="tickmarks">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+            </datalist>
+        </div>
+
+        <div>
+            <label> Storm Location<br>
+                <select name="storm_region">
+                    <option disabled selected value>Select Region...</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+            </label>
+        </div>
+        </fieldset>
+
+        
+        <fieldset>
+            <h2>Additional Information</h2>
+        <div>
+            <p>Are you or anyone nearby in immediate danger?</p>
+            <label>
+                <input class="radio_input" type="radio" name="danger" value="Yes"> Yes
+            </label><br>
+
+            <label>
+                <input class="radio_input" type="radio" name="danger" value="No"> No
+            </label><br>
+
+            <label > 
+                <input class="radio_input" type="radio" name="danger" value="Maybe"> Maybe
+            </label><br>
+
+            <div><br>
+            <label>Comments (optional)
+                <textarea name="comments" rows="5" cols="45" placeholder="Add more information here"></textarea>
+            </label>
+            </div>
+        </div>
+        <a href="https://edwardsja.github.io/lesson8/thanks.html"><input id="submit_button" type="submit" name="submit" value="Send Storm Report"></a>
+        </fieldset>
+
+        
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | J. Aaron Edwards | <a href="https://edwardsja.github.io/"
+            target="_blank">Assignment Portal</a>
+        <br>
+        <span id="lastModified"></span>
+    </footer>
+    <script src="js/lazyload.js"></script>
+    <script src="js/myscript.js"></script>
+    <script src="js/adjustrating.js"></script>
+</body>
+
+</html>

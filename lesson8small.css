@@ -110,32 +110,21 @@ main
     color: #cacfd6;
  }
 
-main h1, figcaption {
+main h1 {
     color: #241e4e;
     font-weight: bold;
     font-family: "Montseratt", sans-serif;
 }
 
-#gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    padding-bottom: 10px;
+label {
+    width: 100px;
+    height: auto;
 }
 
-figure {
-    margin: 0 auto;
-    position: relative;
-    background-color: #efefef;
-    padding-bottom: 5px;
+#storm_severity {
+    display: flex;
+    align-items: center;
 }
 
-img {
-    width: 100%;
-}
 
-footer {
-    font-weight: bold;
-    padding: 10px;
-    font-size: 90%;
-}
+

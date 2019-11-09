@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1080px) {
+    html {
+        height: 1000px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    footer {
+        width: 70%;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    header h1, header h2 {
+        position: relative;
+        right: 5%;
+    }
+
+    nav ul {
+        font-size: 19px;
+    } 
+
+    fieldset {
+        width: 60%;
+    }
+
+    #submit_button {
+        width: 40%;
+    }
+
+}
