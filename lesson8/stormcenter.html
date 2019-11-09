@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/small.css">
     <link rel="stylesheet" type="text/css" href="css/medium.css">
     <link rel="stylesheet" type="text/css" href="css/large.css">
-    <link rel="stylesheet" type="text/css" href="css/lazyload.css">
 
 </head>
 
@@ -43,7 +42,8 @@
     <main>
         <h1>Storm Center Form</h1>
         <p id="info_paragraph">Please fill out all of the required (<span class="required">*</span>) boxes.</p>
-
+        
+        <form method="GET" action="thanks.html">
         <fieldset>
             <h2>Contact Information</h2>
             <div>
@@ -76,7 +76,7 @@
             <h2>Storm Information</h2>
         <div
         ><label> Date of Storm<br>
-                <input type="date" name="storm_date" placeholder="mm/dd/yyyy">
+                <input type="date" name="storm_date">
             </label><br>
         </div>
 
@@ -149,8 +149,9 @@
             </label>
             </div>
         </div>
-        <a href="https://edwardsja.github.io/lesson8/thanks.html"><input id="submit_button" type="submit" name="submit" value="Send Storm Report"></a>
+        <input id="submit_button" type="submit" name="submit" value="Send Storm Report">
         </fieldset>
+        </form>
 
         
     </main>
