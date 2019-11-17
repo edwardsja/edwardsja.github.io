@@ -1,0 +1,125 @@
+@media only screen and (min-width: 670px) {
+    html {
+        max-height: 1500px;
+    }
+    main, footer {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    .navigation li:first-child {
+        display: none;    
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    header, nav {
+        width: 100%;
+    }
+
+    header {
+        grid-template-columns: 30% 70%;
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    header img {
+        justify-self: end;
+        padding-right: 10px;
+        height: auto;
+        padding-top: 5px;
+        max-width: 150px;
+    }
+
+    .navigation {
+        display: grid;
+        grid-template-columns: 12% 13% 22% 20% 21% 12%;
+        grid-template-rows: 1fr;
+    }
+
+    nav ul {
+        font-size: 16px;
+    }
+
+    .weather_alert h3 {
+        font-size: 25px;
+    }
+
+    span.warning {
+        max-width: 400px;
+    }
+
+    section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section:nth-child(even) {
+        flex-flow: row-reverse;
+    }
+
+    section img {
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section h2 {
+        font-size: 28px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    span {
+        max-width: 250px;
+    }
+
+    /* Copied from preston-6.html */
+    .mobile_hide {
+        display: block;
+    }
+
+    #contact_info {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr;
+        margin-top: 0px;
+    }
+    
+    #contact_info img {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 15px;
+        max-width: 300px;
+        justify-self: center;
+    }
+    
+    #contact_info p, #contact_info h4, #social_media {
+        grid-column: 2;
+        grid-row: 1;
+        text-align: left;
+    }
+
+    #contact_info div {
+        align-self: center;
+    }
+
+    #social_media img {
+        width: 48px;
+        padding: 2px;
+    }
+    
+
+
+}

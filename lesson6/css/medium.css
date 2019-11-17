@@ -1,4 +1,4 @@
-@media only screen and (min-width: 670px) {
+@media only screen and (min-width: 535px) {
     html {
         max-height: 1500px;
     }
@@ -58,6 +58,12 @@
         max-width: 200px;
         top: 15px;
         left: 15px;
+        font-size: 16px;
+    }
+
+    #banner_image {
+        width: 100%;
+        height: auto;
     }
 
     #small_caption, #large_caption {

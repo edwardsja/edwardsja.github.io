@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1080px) {
+    html {
+        height: 1000px;
+    }
+
+    main, footer {
+        width: 70%;
+    }
+
+    
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    header h1, header h2 {
+        position: relative;
+        right: 5%;
+    }
+
+    nav ul {
+        font-size: 19px;
+    } 
+
+    div.cards {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        justify-content: space-between;
+    }
+
+    section, section:nth-child(even) {
+        flex-flow: column;
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+
+    section:last-child h4 {
+        margin-bottom: 5px;
+    }
+
+    section img {
+        max-width: 90%;
+    }
+
+    span {
+        max-width: 250px;
+    }
+
+    #social_media img {
+        width: 55px;
+    }
+}
