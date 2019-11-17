@@ -26,10 +26,14 @@ fetch(requestURL)
 
                 if (towns[i].name == 'Fish Haven') {
                     image.setAttribute('src', 'images/fishhaven.jpg');
+                    image.setAttribute('alt', 'farmland with hills and tress in the distance');
+
                 } else if (towns[i].name == 'Preston') {
                     image.setAttribute('src', 'images/preston.jpg');
+                    image.setAttribute('alt', 'farmland with red barns in the background');
                 } else {
                     image.setAttribute('src', 'images/sodasprings.jpg');
+                    image.setAttribute('alt', 'rolling hills with mountain in the background');
                 }
 
 
