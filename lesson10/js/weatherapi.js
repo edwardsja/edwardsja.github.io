@@ -1,4 +1,4 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=d345613b2f121766616eda886275049d&units=imperial';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=d345613b2f121766616eda886275049d&units=imperial';
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -7,7 +7,7 @@ fetch(apiURL)
         document.getElementById('fahrenheit').innerHTML = jsObject.list[0].main.temp;
         document.getElementById('windSpeed').innerHTML = jsObject.list[0].wind.speed;
         document.getElementById('humidity').innerHTML = jsObject.list[0].main.humidity + "%";
-        document.getElementById('calculatedWindChill').innerHTML = windChill();  
+        document.getElementById('calculatedWindChill').innerHTML = windChill();
         let successes = 0;
         for (let i = 0; jsObject.list.length; i++) {
             if (jsObject.list[i].dt_txt.includes("18:00:00")) {
