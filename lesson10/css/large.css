@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1080px) {
+    html {
+        height: 1000px;
+    }
+    main, footer {
+        width: 70%;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    header h1, header h2 {
+        position: relative;
+        right: 10%;
+    }
+
+    nav ul {
+        font-size: 19px;
+    }
+
+    #city_name {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 105%;
+    }
+
+    #small_caption, #medium_caption {
+        display: none;
+    }
+
+    #large_caption {
+        display: block;
+    }
+
+    #banner_summary {
+        max-width: 250px;
+    }
+
+    #article {
+        height: 35%;
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+
+    #forecast h2 {
+        font-size: 25px;
+    }
+    
+    #article img {
+        height: 300px;
+        max-width: 350px;
+    }
+
+    #social_media img {
+        width: 55px;
+    }
+}
