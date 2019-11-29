@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Better Weather Idaho Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Better Weather Idaho aims to give the most accurate current weather for southern Idaho.">
+    <link rel="stylesheet" type="text/css" href="css9/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css9/small.css">
+    <link rel="stylesheet" type="text/css" href="css9/medium.css">
+    <link rel="stylesheet" type="text/css" href="css9/large.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images9/logo.png" alt="Better weather Idaho logo">
+        <div>
+            <h1>
+                Better Weather Idaho | Home
+            </h1>
+            <h2>
+                "Predicting the weather today for a better tomorrow!"
+            </h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="button" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://edwardsja.github.io/lesson11/index.html" class="current_page">Home</a></li>
+            <li><a href="https://edwardsja.github.io/lesson11/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://edwardsja.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://edwardsja.github.io/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="weather_alert">
+            <h3><i class="fas fa-exclamation-triangle fa-2x"></i>
+                <span class="warning">WINTER WEATHER WARNING</span>
+            </h3>
+            <p>Massive blizzard passing through the Preston and Soda Springs area by tommorrow, Sunday, November 12th, at 7 am. Heavy snow should be expected in the surrounding areas. Officials say to prepare by stocking up on food and water for at least 72 hours, and to prepare for potential power outages. Please don't travel anywhere and stay indoors until officals say otherwise.</p>
+        </div>
+        <div class="cards"> </div>
+
+        <!-- Copied from preston-6.html -->
+        <div id="contact_info">
+                <img class="mobile_hide" src="images9/map.png"
+                    alt="picture of a map showing coverage area with location Better Weather Idaho's office">
+                <div>
+                    <h4>
+                        Better Weather Idaho
+                    </h4>
+                    <p>
+                        <a href="https://www.google.com/maps/place/30+N+1st+E,+Preston,+ID+83263/@42.0970234,-111.875773,17z/data=!3m1!4b1!4m5!3m4!1s0x8754f7e967e1ebc7:0x14469667cfe31546!8m2!3d42.0970234!4d-111.8735843"
+                            target="_blank"><i class="fas fa-map-marker-alt fa-xs"></i> 30 N 1st E</a>
+                        <br>
+                        Preston, ID 83263
+                        <br>
+                        <i class="fas fa-phone fa-xs fa-flip-horizontal"></i> 123-456-7890
+                        <br>
+                        <i class="far fa-envelope"></i> betterweatheridaho@bwi.com
+                    </p>
+    
+                    <div id="social_media">
+                        <a href="https://facebook.com" target="_blank"><img src="images9/facebook.png"
+                                alt="facebook icon"></a>
+                        <a href="https://twitter.com" target="_blank"><img src="images9/twitter.png" alt="twitter icon"></a>
+                        <a href="https://instagram.com" target="_blank"><img src="images9/instagram.png"
+                                alt="instagram icon"></a>
+                        <a href="https://pinterest.com" target="_blank"><img src="images9/pinterest.png"
+                                alt="pinterest icon"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- End preston-6.html copy-->
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | J. Aaron Edwards | <a href="https://edwardsja.github.io/"
+            target="_blank">Assignment Portal</a>
+        <br>
+        <span id="lastModified"></span>
+    </footer>
+    <script src="js9/lazyload.js"></script>
+    <script src="js9/myscript.js"></script>
+    <script src="js9/towns.js"></script>
+    <script src="https://kit.fontawesome.com/045ae6be91.js" crossorigin="anonymous"></script>
+</body>
+</html>
