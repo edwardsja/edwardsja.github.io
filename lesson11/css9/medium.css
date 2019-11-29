@@ -4,6 +4,7 @@
     }
     main, footer {
         width: 85%;
+        margin: 0 auto;
     }
 
     header h1 {
@@ -46,20 +47,79 @@
         font-size: 16px;
     }
 
-    #gallery {
+    .weather_alert h3 {
+        font-size: 25px;
+    }
+
+    span.warning {
+        max-width: 400px;
+    }
+
+    section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section:nth-child(even) {
+        flex-flow: row-reverse;
+    }
+
+    section img {
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section h2 {
+        font-size: 28px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    span {
+        max-width: 250px;
+    }
+
+    /* Copied from preston-6.html */
+    .mobile_hide {
+        display: block;
+    }
+
+    #contact_info {
         display: grid;
-        grid-template-columns: 40% 40%;
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-        justify-content: center;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr;
+        margin-top: 0px;
+    }
+    
+    #contact_info img {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 15px;
+        max-width: 300px;
+        justify-self: center;
+    }
+    
+    #contact_info p, #contact_info h4, #social_media {
+        grid-column: 2;
+        grid-row: 1;
+        text-align: left;
     }
 
-    footer {
-        margin: 0 auto;
-        top: 140px;
+    #contact_info div {
+        align-self: center;
     }
 
-    figcaption {
-        font-size: 14px;
+    #social_media img {
+        width: 48px;
+        padding: 2px;
     }
+    
+
+
 }
