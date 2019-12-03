@@ -1,0 +1,514 @@
+body {
+    font-family: "Montseratt", sans-serif;
+    margin: 0 auto;
+}
+
+.saturday {
+    background-color: #ffd966;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 2px 15px #504f4f;
+    z-index: 50;
+    position: relative;
+    display: none;
+}
+
+.notice {
+    display: block;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30% 60%;   
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    column-gap: 0px;
+    width: 100%;
+}
+
+header h1 {
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+header span {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+header, nav, footer, #city_name {
+    text-align: center;
+    width: 100%;
+}
+
+header h2 {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    text-shadow: 0px 0px  6px black, -2px 0px 3px black;
+    margin-top: 0px; 
+    font-family: "Open Sans" , sans-serif;
+    font-size: 16px;
+}
+
+header h2, header img {
+    align-self: center;
+    justify-self: center;
+}
+
+header img {
+    max-width: 100px;
+}
+
+header, footer {
+    background-color: #1b9aaa;
+    color: #ffffff;
+}
+
+main
+ {
+    margin: 0 auto;
+    background-color: #ffffff;
+ }
+
+ #banner, #article {
+    width: 98%;
+ }
+
+ .navigation li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;    
+}
+
+.responsive li {
+    display: block;
+}
+
+ nav {
+     background-color: #cacfd6;
+     color: #292f36;
+ }
+
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0; 
+     overflow: hidden;
+     font-size: 18px;
+ }
+
+ nav li a {
+     display: block;
+     padding-top: 0.75em;
+     padding-bottom: 0.75em;
+     text-decoration: none;
+ }
+
+ nav a:hover {
+     background-color: #292f36;
+     color: #cacfd6;
+ }
+
+ nav, footer {
+    font-family: "Open Sans" , sans-serif;
+ }
+
+ .current_page {
+    background-color: #292f36;
+    color: #cacfd6;
+ }
+
+ /* start city pages css */
+#city_name {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#city_name, main h3, main h2, #contact_info h4 {
+    color: #241e4e;
+    font-weight: bold;
+}
+
+#banner {
+    position: relative;
+}
+
+#banner_summary {
+    float: left;
+    border: 1px solid black;
+    position: absolute;
+    background-color: #1b9aaa;
+    color: #ffffff;
+    text-align: center;
+    width: 60%;
+    height: 175px;
+    left: 20px;
+    top: 20px;
+    z-index: 100;
+    display: grid;
+    grid-template-rows: 45px 130px;
+    grid-template-columns: 45% 55%;
+
+}
+
+#banner_summary h2 {
+    margin-bottom: 0px;
+    margin-top: 23px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    border-bottom: 1px solid #241e4e;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#banner_summary p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.left_summary {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: right;
+}
+
+.right_summary {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: left;
+    color: yellow;
+}
+
+
+#banner_image {
+    height: 175px;
+}
+
+#medium_caption, #large_caption {
+    display: none;
+}
+
+#article {
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    display: block;
+    background-color: #efefef;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#article h2 {
+    padding-left: 5%;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+#article h3 {
+    padding-left: 8%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+#article p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#article img {
+    max-width: 340px; 
+    max-height: 350px;
+    color: #ffffff;
+    font-weight: bolder;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#article p, #contact_info p {
+    padding: 10px;
+}
+
+.town_events {
+    padding-top: 8px;
+}
+
+.events_box {
+    background-color: #1b9aaa;
+}
+
+.town_events h3 {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+.town_events p {
+    padding: 7px;
+    text-align: left;
+    padding-left: 20%;
+    color: white;
+    font-weight: bold;
+}
+
+#contact_info {
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+#contact_info h4 {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#contact_info p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 16px;
+}
+
+p i {
+    color: #1b9aaa;
+}
+
+#contact_info p a:hover {
+    font-size: 105%;
+}
+
+#contact_info a:link, #contact_info a:visited 
+    {
+    color: black;
+    text-decoration: none;
+}
+
+#social_media img {
+    width: 32px;
+    padding: 5px;
+}
+
+footer {
+    font-weight: bold;
+    bottom: -40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 90%;
+}
+
+.mobile_hide {
+    display: none;
+}
+/* end city pages css*/
+
+/*start index css*/
+section {
+    background-color: #efefef;
+    text-align: center;
+    box-shadow: 2px 2px 10px 6px #858484c5, 2px 2px 4px 2px #858484c5;
+}
+
+section h2 {
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+section h4 {
+    margin-top: 5px;
+}
+
+section h2, h4 {
+    color: #241e4e;
+}
+
+section p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+section img {
+    margin-top: 5px;
+    width: 300px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+.weather_alert {
+    margin-top: 20px;
+    border: 1px solid #1b9aaa;
+    display: block;
+}
+
+i.fa-exclamation-triangle {
+    text-shadow: -1px -1px 0 #1b9aaa, 1px -1px 0 #1b9aaa,
+                 -1px 1px 0 #1b9aaa, 1px 1px 0 #1b9aaa;
+    margin-right: 15px;       
+}
+
+.weather_alert h3 {
+    color: white;
+    background-color: #1b9aaa;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+		         -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.weather_alert h3 span {
+    padding-top: 10px;
+}
+
+.weather_alert p {
+    padding-left: 10px;
+    font-size: 16px;
+}
+/*end index css*/
+
+/*start stormcenter css*/
+main h1 {
+    color: #241e4e;
+    font-weight: bold;
+    font-family: "Montseratt", sans-serif;
+    text-align: center;
+}
+
+fieldset div {
+    padding: 5px;
+}
+
+#info_paragraph {
+    font-size: 18px;
+    text-align: center;
+}
+
+.required {
+    color: red;
+    font-size: 25px;
+}
+
+p .required {
+    position: relative;
+    top: 6px;
+}
+
+main h2 {
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #cacfd6;
+}
+
+fieldset {
+    width: 100%;
+    margin-top: 10px;
+    border: 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#storm_severity_input {
+    margin-left: 5px;
+    margin-right: 8px;
+    width: 85%;
+}
+
+.center_text {
+    position: relative;
+    bottom: 4px;
+}
+
+input, select {
+    width: 90%;
+}
+
+.radio_input {
+    width: 50px;
+    height: auto;
+}
+
+textarea {
+    font-size: 18px;
+    text-align: left;
+    width: 90%;
+}
+fieldset p {
+    margin-top: 0px;
+}
+
+#submit_button {
+    background-color: #cacfd6;
+    width: 60%;
+    height: 50px;
+    margin-left: 7px;
+}
+
+#thanks {
+    text-align: center;
+    padding: 5px;
+}
+/*end*/
+
+/*start gallery css*/
+figcaption {
+    color: #241e4e;
+    font-weight: bold;
+    font-family: "Montseratt", sans-serif;
+}
+
+figure {
+    margin: 0;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+figure {
+    margin: 0 auto;
+    position: relative;
+    background-color: #efefef;
+    padding-bottom: 5px;
+    text-align: center
+    
+    ;
+}
+
+img {
+    width: 100%;
+}
+/*end*/
+
