@@ -1,0 +1,362 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.current_page {
+    background-color: #e8e9eb;
+}
+
+nav {
+    background-color: #cacfd6;
+    color: #292f36;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+    font-size: 18px;
+}
+
+nav li a {
+    display: block;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    background-color: #292f36;
+    color: #cacfd6;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;    
+}
+
+.responsive li {
+    display: block;
+}
+
+footer {
+    background-color: #cacfd6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.index_footer {
+    position: relative;
+    top: -222px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.name_reservation {
+    position: relative;
+    top: -170px; 
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 0;
+}
+
+.name_reservation h1 {
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.name_reservation h3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.reserve_button {
+    color: white;
+    background-color: #2f2d2e;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.reserve_button:hover {
+    color: #000000;
+    border: 2px solid black;
+    background-color: #ffffff79;
+    text-shadow: 1px 1px 3px black;
+}
+
+a:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.imagefit {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, figcaption, form {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, li, footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.events_list {
+    background-color: #cacfd6;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+.events_list h2 {
+    margin-top: 5px;
+}
+
+.events_list ul {
+    margin-bottom: 5px;
+}
+
+.events_list ul {
+    padding: 0px;
+}
+
+.body {
+    position: relative;
+    top: -165px;
+}
+
+.featured {
+    background-color: #cacfd6;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 3px;
+    position: relative;
+    top: -28px;
+}
+
+.featured h2 {
+    margin-top: 0px;
+}
+
+.events_list h2, .featured h2 {
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.featured h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    position: relative;
+    top: -32px;
+    color: white;
+    background-color: #cacfd659;
+    padding: 5px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.bottom_temple {
+    position: relative;
+    top: -28px;
+}
+
+.bottom_temple img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.fix_height {
+    height: 250px;
+}
+
+.temple_times {
+    display: grid;
+    grid-template-columns: 49% 51%;
+    text-align: unset;
+}
+
+.times_left{
+    justify-self: end;
+    text-align: right;
+}
+
+.times_right {
+    justify-self: start;
+    text-align: left;
+}
+
+.temple_name {
+    padding-top: 10px;
+}
+
+.required {
+    color: red;
+}
+
+.add_space {
+    margin-bottom: 15px;
+}
+
+.reserve_form_button {
+    color: white;
+    background-color: #2f2d2e;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+form div {
+    padding: 7px;
+}
+
+.lighter_background {
+    background-color: #cacfd671;
+}
+
+.regular_gray {
+    background-color: #cacfd6
+}
+
+fieldset {
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.reservation_instructions {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+img.reservation_banner {
+    max-width: 100%;
+}
+
+.reservation_title {
+    margin-bottom: 8px;
+}
+
+.special_services, .amentities {
+    display: block;
+    margin: 0 auto;
+}
+
+.special_services li, .amentities li {
+    padding: 5px 25px;
+    list-style: none;
+}
+
+.click_suites, .click_reception {
+    position: relative;
+    top: -75px;
+    font-size: 30px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.clickable_images {
+    position: relative;
+    top: 50px;
+}
+
+.clickable_images img, .amentities img, .special_services img {
+    max-width: 100%;
+}
+
+.amentities {
+    background-color: #cacfd671;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+.amentities h3 {
+    margin-top: 0px;
+}
+
+.clickable_images h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.reception_summary {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.reception_page img {
+    max-width: 100%;
+}
+
+.reception_title {
+    background-color: #cacfd6;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 5px 0px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.current_weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.current_weather p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.current_weather_left {
+    text-align: right;
+}
+
+.current_weather_right {
+    text-align: left;
+}
+
+.curr_weather_title {
+    margin-bottom: 5px;
+}
+
+.temple_closures h4 {
+    margin-bottom: 0px;
+}
+
+.temple_closures p {
+    margin-top: 5px;
+}

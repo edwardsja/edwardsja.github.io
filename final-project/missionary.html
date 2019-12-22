@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Temple Inn and Suites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Temple Inn and Suites aims to provide high quality service for convenience to those who wish to visit one of the many LDS temples around the US.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="button" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html"><i class="fas fa-hotel fa-lg"></i></a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="services.html" class="current_page">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+
+    </header>
+
+    <main>
+        <h2>Suites for Full-Time Missionaries</h2>
+        <span class="missionary_hotel">
+            <span class="double_twin">
+                <span><h3>Two twin beds</h3>
+                <p>
+                This room comes with two twin sized beds and features two seperate closets. Includes a kitchenette,
+                with basic kitchen supplies. Also includes a seperate bathroom and sink space, with a stand up
+                shower.
+                </p>
+                <img src="images/two_twin.jpg" class="imagefit"></span></span>
+            </spanclass="double_twin">
+            <span class="single_queen">
+                <h3>One queen bed</h3>
+                <p>
+                    This room comes with one queen sized bed with a larger closet and kitchenette. Includes a sit down
+                    and stand up shower.
+                </p>
+                <img src="images/one_queen.jpg" class="imagefit">
+            </span>
+            <span class="double_queen">
+                <h3>Two queen beds</h3>
+                <p>
+                    This room comes with two queen sized beds, and had two larger closets, with a larger kitchenette. It
+                    also has a sit down and stand up shower.
+                </p>
+                <img src="images/two_queen.jpg" class="imagefit">
+            </span>
+            <span class="single_king">
+                <h3>One king bed</h3>
+                <p>
+                    This room is for those who need the most amount of room as possible. It has one king sized bed with
+                    a bigger closest than the queen rooms. It also includes a kitchenette with a small dishwasher. There
+                    is a sit down and stand up shower.
+                </p>
+                <img src="images/one_king.jpg" class="imagefit">
+            </span></span>
+        <h2>Questions? Concerns? We can help!</h2>
+        <p class="reservation_instructions">Please fill out all of the required (<span class="required">*</span>) boxes.
+        </p>
+        <form method="GET" action="success.html">
+            <fieldset>
+                <div>
+                    <label> Full Name (First and Last)<span class="required">*</span> <br>
+                        <input type="text" name="name" placeholder="John Smith" required>
+                    </label><br>
+                </div>
+
+                <div>
+                    <label> Email<span class="required">*</span> <br>
+                        <input type="email" name="email" placeholder="email@address.com" required>
+                    </label><br>
+                </div>
+
+                <div>
+                    <label> Phone<br>
+                        <input type="tel" name="phone" placeholder="xxx-xxx-xxxx">
+                    </label><br>
+                </div>
+
+                <div><br>
+                    <label>Comments<br>
+                        <textarea name="comments" rows="5" cols="30"
+                            placeholder="Please write down your question or concern here and we will get back to you as soon as possible"></textarea>
+                    </label>
+                </div>
+                <input id="submit_button" type="submit" name="submit" value="Send Questons or Concerns"
+                    class="reserve_form_button">
+                <!--Send to success page or onclick javascript output "Reservation successfully sent! An email will be sent confirming the reservation information shortly."-->
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | Created and maintained by Aaron Edwards
+    </footer>
+
+    <script src="js/myscript.js"></script>
+    <script src="https://kit.fontawesome.com/045ae6be91.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

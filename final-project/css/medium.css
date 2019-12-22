@@ -1,0 +1,114 @@
+@media only screen and (min-width: 535px) {
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .navigation {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .body {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 350px 350px 350px;
+        grid-column-gap: 10px;
+        grid-row-gap: 5px;
+        top: -150px;
+    }
+
+    .events_list li {
+        font-size: 20px;
+    }
+
+    .bottom_temple {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        top: 0px;
+    }
+
+    .top_temple {
+        grid-column: 1 / span 2;
+        grid-row: 3 / span 1;
+        top: 0px;
+    }
+
+    .featured {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 2;
+        top: 0;
+    }
+
+    .featured p {
+        margin-top: 2px;
+    }
+
+    .index_footer {
+        top: 0px;
+    }
+
+    .temple_card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 5px;
+        ;
+    }
+
+    .first_temple {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .second-temple {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .temple_footer {
+        margin-top: 5px;
+    }
+
+    .reservation_flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img.services_banner {
+        max-width: 100%;
+    }
+
+    img.shuttle {
+        width: 100%;
+    }
+
+    .reception_picture {
+        width: 100%;
+    }
+
+    .bright_white img, .earthy_natural img, .reception_food img {
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    .cake_tower {
+        width: 70%;
+    }
+
+    .contact_paragraph {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .special_services img, .amentities img, .clickable_images img {
+        border: 1px solid black;
+    }
+
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Temple Inn and Suites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Temple Inn and Suites aims to provide high quality service for convenience to those who wish to visit one of the many LDS temples around the US.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="button" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html"><i class="fas fa-hotel fa-lg"></i></a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="reservation.html" class="current_page">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+
+    </header>
+
+    <main>
+        <!--Use flex to format form-->
+        <h2 class="reservation_title">Reservation</h2>
+        <img class="reservation_banner" src="images/reservationhotel_small.jpg">
+        <p class="reservation_instructions">Please fill out all of the required (<span class="required">*</span>) boxes.
+        </p>
+
+        <form method="GET" action="success.html" class="reservation_flex">
+            <span>
+                <fieldset class="lighter_background">
+                    <div>
+                        <label>Location<span class="required">*</span><br>
+                            <select name="temple_city" required>
+                                <option disabled selected value>Select Temple...</option>
+                                <option value="Provo">Provo</option>
+                                <option value="San Diego">San Diego</option>
+                                <option value="D.C.">Washington D.C.</option>
+                                <option value="Fort Collins">Fort Collins</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>Date<span class="required">*</span><br>
+                            <input type="date" name="arrival_date" required>
+                        </label><br>
+                    </div>
+
+                    <div>
+                        <label>Number of Nights<span class="required">*</span><br>
+                            <input type="number" name="num_nights" placeholder="1" required>
+                        </label><br>
+                    </div>
+
+                </fieldset>
+                <fieldset class="regular_gray">
+                    <div>
+                        <label>Number of Rooms<span class="required">*</span><br>
+                            <input type="number" name="num_room" placeholder="1" required>
+                        </label><br>
+                    </div>
+
+                    <div class="add_space">
+                        <label>Type of Room<span class="required">*</span><br>
+                            <select name="type_room" required>
+                                <option disabled selected value>Select Room Type...</option>
+                                <option value="Single Twin">Single Twin</option>
+                                <option value="Double Twin">Double Twin</option>
+                                <option value="Triple Twin">Triple Twin</option>
+                                <option value="Single Queen">Single Queen</option>
+                                <option value="Double Queen">Double Queen</option>
+                                <option value="Single King">Single King</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>Number of Rooms<br>
+                            <input type="number" name="num_room" placeholder="1">
+                        </label><br>
+                    </div>
+
+                    <div>
+                        <label>Type of Room<br>
+                            <select name="type_room_optional">
+                                <option disabled selected value>Select Room Type...</option>
+                                <option value="Single Twin">Single Twin</option>
+                                <option value="Double Twin">Double Twin</option>
+                                <option value="Triple Twin">Triple Twin</option>
+                                <option value="Single Queen">Single Queen</option>
+                                <option value="Double Queen">Double Queen</option>
+                                <option value="Single King">Single King</option>
+                            </select>
+                        </label>
+                    </div>
+                </fieldset>
+            </span>
+
+            <fieldset class="lighter_background">
+                <div>
+                    <label> Full Name (First and Last)<span class="required">*</span> <br>
+                        <input type="text" name="name" placeholder="John Smith" required>
+                    </label><br>
+                </div>
+
+                <div>
+                    <label> Email<span class="required">*</span> <br>
+                        <input type="email" name="email" placeholder="email@address.com" required>
+                    </label><br>
+                </div>
+
+                <div>
+                    <label> Phone<br>
+                        <input type="tel" name="phone" placeholder="xxx-xxx-xxxx">
+                    </label><br>
+                </div>
+
+                <div>
+                    <label>Home State or Country<br>
+                        <input type="text" name="home" placeholder="Texas">
+                    </label><br>
+                </div>
+
+                <div class="add_space"><br>
+                    <label>Special Accomodations or Comments<br>
+                        <textarea name="comments" rows="5" cols="28"
+                            placeholder="Please add any comments or special accomodations"></textarea>
+                    </label>
+                </div>
+                <input id="submit_button" type="submit" name="submit" value="Reserve Room" class="reserve_form_button">
+                <!--Send to success page or onclick javascript output "Reservation successfully sent! An email will be sent confirming the reservation information shortly."-->
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | Created and maintained by Aaron Edwards
+    </footer>
+
+    <script src="js/myscript.js"></script>
+    <script src="https://kit.fontawesome.com/045ae6be91.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

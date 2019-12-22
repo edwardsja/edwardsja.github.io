@@ -1,0 +1,81 @@
+{
+    "temples" : [
+    {
+      "name": "Provo City",
+      "state": "Utah",
+      "closures": [
+          "2019",
+          "24 December - 25 December",
+          "31 December",
+          " ",
+          "2020",
+          "1 January",
+          "4 April",
+          "22 June - 6 July",
+          "24 July",
+          "3 October",
+          "25 November (Limited Hours)",
+          "26 November",
+          "30 November - 14 December",
+          "24 December - 25 December",
+          "31 December - 1 January 2021"
+      ]
+    },
+    {
+        "name": "Washington D.C.",
+        "state": "Maryland",
+        "closures": [
+            "Currently closed due to renovations until sometime in 2020"
+        ]
+      },
+      {
+        "name": "Fort Collins",
+        "state": "Colorado",
+        "closures": [
+            "2019",
+            "24 December",
+            "25 December",
+            "31 December (Limited Hours)",
+            " ",
+            "2020",
+            "1 January",
+            "17 February - Monday, 2 March",
+            "2 March - 23 March (Limited Hours)",
+            "4 April",
+            "4 July",
+            "17 August - 31 August",
+            "3 October",
+            "25 November(Limited Hours)",
+            "26 November",
+            "24 December",
+            "25 December",
+            "31 December(Limited Hours)",
+            " ",
+            "2021",
+            "1 January"
+        ]
+      },
+      {
+        "name": "Fort Collins",
+        "state": "Colorado",
+        "closures": [
+            "2019",
+            "24 December - 25 December",
+            "31 December",
+            " ",
+            "2020",
+            "1 January",
+            "16 March - 30 March",
+            "4 April",
+            "4 July",
+            "14 September - 28 September",
+            "3 October",
+            "25 November - 26 November",
+            "24 December - 25 December",
+            "31 December"
+        ]
+      }
+    ]
+}
+
+

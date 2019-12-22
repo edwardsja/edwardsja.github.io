@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Temple Inn and Suites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Temple Inn and Suites aims to provide high quality service for convenience to those who wish to visit one of the many LDS temples around the US.">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/small.css">
+    <link rel="stylesheet" href="css/middle.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="current_page">Logo<!-- Add logo here--></a></li> 
+            <li><a href="#">Temple</a></li>
+            <li ><a href="#">Reservation</a></li>
+            <li><a href="#">Services</a></li>
+            <!-- Add Drop down menu for reception and Temple Missionary-->
+            <li><a href="#">Contact</a></li>
+          </ul>
+    </nav>
+
+    <header>
+        
+    </header>
+
+    <main>
+        
+    </main>
+
+    <footer>
+        *Footer Placeholder*
+    </footer>
+    
+    <script src="js/myscript.js"></script>
+</body>
+
+</html>

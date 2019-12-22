@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Temple Inn and Suites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Temple Inn and Suites aims to provide high quality service for convenience to those who wish to visit one of the many LDS temples around the US.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="button" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html"><i class="fas fa-hotel fa-lg"></i></a></li>
+            <li><a href="temple.html" class="current_page">Temple</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <h2 class="temples">Temples</h2>
+        <div class="temple_card">
+            <div class="regular_gray first_temple">
+                <span>
+                    <h3 class="temple_name">Provo City Temple</h3>
+                    <img src="images/provocitytemple.jpg" class="imagefit">
+                    <p>
+                        50 South University Ave
+                        Provo UT 84601<br>
+                        801-343-2700<br>
+                        <br>
+                        Clothing rental, Distribution center nearby<br>
+                        <br>
+                        <span class=temple_times>
+                            <span class="times_left">
+                                Tuesday: &nbsp;<br>
+                                Wednesday - Friday: &nbsp;<br>
+                                Saturday: &nbsp;<br>
+                            </span>
+                            <span class="times_right">
+                                5:30am - 7:30pm<br>
+                                8am - 7:30pm<br>
+                                7:30am - 7pm<br>
+                            </span>
+                        </span>
+                    </p>
+                </span>
+
+                <span>
+                    <h4 class="curr_weather_title">Current Weather:</h4>
+                    <div class="current_weather">
+                        <span class="current_weather_left">
+                            <p>Type of Weather: &nbsp;</p>
+                            <p>Tempurature: &nbsp;</p>
+                            <p>Wind Speed: &nbsp;</p>
+                            <p>Humidity: &nbsp;</p>
+                        </span>
+                        <span class="current_weather_right">
+                            <p id="weather1"></p>
+                            <p id="temp1"></p>
+                            <p id="wind1"></p>
+                            <p id="humid1"></p>
+                        </span>
+                    </div>
+                    <!--Weatherapi-->
+                    <div class="temple_closures">
+                        <!--JSON-->
+                        <h4>Upcoming Temple Closures:</h4>
+                        <p id="closure_schedule1"></p>
+                    </div>
+                </span>
+            </div>
+
+            <div class="lighter_background second-temple">
+                <span  class="flip_temple_card">
+                    <h3 class="temple_name">Washington D.C. Temple</h3>
+                    <img src="images/washingtondc.jpg" class="imagefit">
+                    <p>
+                        9900 Stoneybrook Drive
+                        Kensington, Maryland 20895-3199<br>
+                        301-588-0650<br>
+                        VCWashington@ChurchofJesusChrist.org<br>
+                    </p>
+                </span>
+
+                <span class="also_flip_card">
+                    <h4 class="curr_weather_title">Current Weather:</h4>
+                    <div class="current_weather">
+                        <span class="current_weather_left">
+                            <p>Type of Weather: &nbsp;</p>
+                            <p>Tempurature: &nbsp;</p>
+                            <p>Wind Speed: &nbsp;</p>
+                            <p>Humidity: &nbsp;</p>
+                        </span>
+                        <span class="current_weather_right">
+                            <p id="weather2"></p>
+                            <p id="temp2"></p>
+                            <p id="wind2"></p>
+                            <p id="humid2"></p>
+                        </span>
+                    </div>
+                    <!--Weatherapi-->
+                    <div class="temple_closures">
+                        <!--JSON-->
+                        <h4>Upcoming Temple Closures:</h4>
+                        <p id="closure_schedule2"></p>
+                    </div>
+                    <br>
+                </span>
+
+            </div>
+
+            <div class="regular_gray third_temple">
+                <span>
+                    <h3 class="temple_name">Fort Collins Temple</h3>
+                    <img src="images/fortcollinstemple.jpg" class="imagefit">
+                    <p>
+                        2180 Majestic Dr
+                        Fort Collins CO 80528<br>
+                        970-797-4630<br>
+                        <br>
+                        <span class=temple_times>
+                            <span class="times_left">
+                                Tuesday - Friday: &nbsp;<br>
+                                Saturday: &nbsp;<br>
+                            </span>
+                            <span class="times_right">
+                                8am - 7pm<br>
+                                7am - 3pm<br>
+                            </span>
+
+                        </span>
+                    </p>
+                </span>
+
+                <span>
+                    <h4 class="curr_weather_title">Current Weather:</h4>
+                    <div class="current_weather">
+                        <span class="current_weather_left">
+                            <p>Type of Weather: &nbsp;</p>
+                            <p>Tempurature: &nbsp;</p>
+                            <p>Wind Speed: &nbsp;</p>
+                            <p>Humidity: &nbsp;</p>
+                        </span>
+                        <span class="current_weather_right">
+                            <p id="weather3"></p>
+                            <p id="temp3"></p>
+                            <p id="wind3"></p>
+                            <p id="humid3"></p>
+                        </span>
+                    </div>
+                    <!--Weatherapi-->
+                    <div class="temple_closures">
+                        <!--JSON-->
+                        <h4>Upcoming Temple Closures:</h4>
+                        <p id="closure_schedule3"></p>
+                    </div>
+                    <br>
+                </span>
+
+
+            </div>
+
+            <div class="lighter_background fourth_temple">
+                <span class="flip_temple_card">
+                    <h3 class="temple_name">San Diego Temple</h3>
+                    <img src="images/sandiegotemple_flower.jpg" class="imagefit">
+                    <p>
+                        7474 Charmant Dr
+                        San Diego CA 92122-5000<br>
+                        858-622-0991<br>
+                        <br>
+                        Clothing rental, cafeteria, Distribution center nearby<br>
+                        <br>
+                        <span class=temple_times>
+                            <span class="times_left">
+                                Tuesday: &nbsp;<br>
+                                Wednesday - Friday: &nbsp;<br>
+                                Saturday: &nbsp;<br>
+                            </span>
+                            <span class="times_right">
+                                5:30am - 7:30pm<br>
+                                8am - 7:30pm<br>
+                                7:30am - 7pm<br>
+                            </span>
+
+                        </span>
+                    </p>
+                </span>
+
+                <span class="also_flip_card">
+                    <h4 class="curr_weather_title">Current Weather:</h4>
+                    <div class="current_weather">
+                        <span class="current_weather_left">
+                            <p>Type of Weather: &nbsp;</p>
+                            <p>Tempurature: &nbsp;</p>
+                            <p>Wind Speed: &nbsp;</p>
+                            <p>Humidity: &nbsp;</p>
+                        </span>
+                        <span class="current_weather_right">
+                            <p id="weather4"></p>
+                            <p id="temp4"></p>
+                            <p id="wind4"></p>
+                            <p id="humid4"></p>
+                        </span>
+                    </div>
+                    <!--Weatherapi-->
+                    <div class="temple_closures">
+                        <!--JSON-->
+                        <h4>Upcoming Temple Closures:</h4>
+                        <p id="closure_schedule4"></p>
+                    </div>
+                </span>
+
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="temple_footer">
+        &copy; <span id="currentYear"></span> | Created and maintained by Aaron Edwards
+    </footer>
+
+    <script src="js/myscript.js"></script>
+    <script src="js/temples.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="https://kit.fontawesome.com/045ae6be91.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

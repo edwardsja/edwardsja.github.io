@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <title>Temple Inn and Suites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Temple Inn and Suites aims to provide high quality service for convenience to those who wish to visit one of the many LDS temples around the US.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="button" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.hml" class="current_page"><i class="fas fa-hotel fa-lg"></i></a></li> 
+            <li><a href="temple.html">Temple</a></li>
+            <li ><a href="reservation.html">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+    </nav>
+
+    <header>
+        <img src="images/headerimage.jpg" class="imagefit">
+    </header>
+
+    <main>
+        <div class="name_reservation">
+            <h1>Temple Inn & Suites</h1>
+            <button class="reserve_button"type="button" onclick="reservation()">Reserve a Room</button>
+            <h3>Please call 999-999-9999 for help and more information.</h3>
+        </div>
+        <div class="body">
+            <div class="events_list">
+                <h2>Upcoming Temple Events</h2>
+                <ul>
+                    <li>12/5 to 1/4 - Festival of Lights at the D.C. Temple</li>
+                    <li>1/22 to 2/1 - Durban South Africa Temple Open House</li>
+                    <li>Sometime in 2020 - Washington D.C. Temple Open House</li>
+                </ul>
+            </div>
+            <figure class="top_temple">
+                <img src="images/washingtondclights1.jpg" class="imagefit" class="temples">
+                <figcaption>Washington D.C. Temple - Festival of Lights</figcaption>
+            </figure>
+            <div class="featured">
+                <h2>Featured Temple</h2>
+                <h3>San Diego Temple</h3>
+                <figure class="fix_height">
+                    <img src="images/sandiegotemple.jpg" class="temples">
+                    <figcaption>San Diego Temple</figcaption>
+                </figure>
+                <span>
+                    <p><u>Announcement:</u><br>  7 April 1984 <br><br>
+
+                        <u>Groundbreaking and Site Dedication:</u><br>  27 February 1988 by Ezra Taft Benson<br><br>
+
+                        <u>Public Open House:</u><br>  20 February–3 April 1993<br><br>
+
+                        <u>Dedication:</u><br>  25–30 April 1993 by Gordon B. Hinckley<br><br>
+                        
+                        <u>Site:</u><br>  7.2 acres<br><br>
+
+                        <u>Exterior Finish:</u><br>  Marble chips in plaster<br><br>
+
+                        <u>Total Floor Area:</u><br>  72,000 square feet</p>
+                </span>              
+            </div>
+
+            <figure class="bottom_temple">
+                <img src="images/saltlaketemple.jpg" class="temples">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer class="index_footer">
+        &copy; <span id="currentYear"></span> | Created and maintained by Aaron Edwards 
+    </footer>
+
+    <script src="js/myscript.js"></script>
+    <script src="https://kit.fontawesome.com/045ae6be91.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+@media only screen and (min-width: 1080px) {
+
+    head, body, footer, header, .name_reservation {
+        margin: 0 auto;
+    }
+
+    .name_reservation, header, footer, .body {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .name_reservation {
+        top: -190px;
+    }
+
+    .name_reservation h1 {
+        font-size: 50px;
+    }
+
+    .name_reservation h3 {
+        font-size: 25px;
+    }
+
+    .body {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
+
+    }
+
+    .featured {
+        grid-column: 3;
+        grid-row: 1 / span 3;
+    }
+
+    .featured p {
+        font-size: 20px;
+    }
+
+    .featured h2 {
+        font-size: 35px;
+    }
+    
+    .featured h3 {
+        font-size: 28px;
+    }
+
+    .events_list {
+        grid-column: 1 / span 2;
+    }
+
+    .events_list li {
+        font-size: 25px;
+    }
+
+    .events_list h2 {
+        font-size: 30px;
+    }
+
+    .bottom_temple {
+        grid-column: 1 / span 2;
+    }
+
+    .temple_card {
+        width: 70%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .first_temple {
+        grid-column: 1;
+    }
+
+    .second-temple {
+        grid-row: 2;
+    }
+
+    .third_temple {
+        grid-row: 3;
+    }
+
+    .fourth_temple {
+        grid-row: 4;
+    }
+
+    .first_temple, .second-temple, .third_temple, .fourth_temple {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .flip_temple_card {
+        grid-column: 2;
+    }
+
+    .also_flip_card {
+        grid-row: 1;
+    }
+
+    .first_temple span, .second-temple span, .third_temple span, .fourth_temple span {
+        align-self: center;
+    }
+
+    .temples {
+        font-size: 30px;
+    }
+
+    .temple_card h3 {
+        font-size: 25px;
+    }
+
+    .temple_card p, .temple_card h4 {
+        font-size: 20px;
+    }
+
+    .special_services, .amentities, .clickable_images {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .special_services h3, .amentities h3 {
+        font-size: 25px;
+    }
+
+    .services_title {
+        font-size: 30px;
+    }
+
+    .clickable_images h4 {
+        font-size: 20px;
+    }
+
+    .bright_white img, .earthy_natural img, .entrees img, .appetizers img, .dessert img {
+        max-width: 90%;
+    }
+
+    .reception_page {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-content: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .brightwhite {
+        grid-column: 1;
+    }
+
+    .earthynatural {
+        grid-column: 3;
+    }
+
+    .reception_suggestion_paragraph {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .entrees {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .appetizers {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .dessert {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .missionary_hotel {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .double_twin, .single_queen, .double_queen, .single_king {
+        border: 1px solid black;
+    }
+
+    .double_twin img, .single_queen img, .double_queen img, .single_king img {
+        max-height: 300px;
+    }
+
+}
