@@ -316,6 +316,10 @@ img.reservation_banner {
     margin: 0 auto;
 }
 
+.reception_suggestion_paragraph {
+    padding: 10px;
+}
+
 .reception_page img {
     max-width: 100%;
 }
